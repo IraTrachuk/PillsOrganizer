@@ -11,11 +11,17 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class Database {
+    private static Database instance = new Database();
+
+    public static Database getInstance() {
+        return instance;
+    }
+
     private List<Schedule> Schedules = new ArrayList<Schedule>();
     private User CurrentUser = null;
     private List<Pill> Pills = new ArrayList<Pill>();
 
-    public Database() {
+    protected Database() {
         CurrentUser = new User("USER");
 
         Schedules.add(new Schedule("In the morning", 8, 10));
