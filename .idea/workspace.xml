@@ -24,8 +24,8 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4db8029-4cd8-4f4c-af9b-355764590523" name="Default" comment="Picture 1 for lab #5">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/picts/Lab5-1.png" />
+    <list default="true" id="c4db8029-4cd8-4f4c-af9b-355764590523" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PillsOrganizer2.iws" />
@@ -35,13 +35,14 @@
     <file path="/fragment.java" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385663842783" ignored="false" />
     <file path="/Database.java" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385582742084" ignored="false" />
     <file path="/DatabaseTest.java" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385576308773" ignored="false" />
-    <file path="/Dummy.txt" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385667233263" ignored="false" />
+    <file path="/Dummy.txt" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385667272015" ignored="false" />
     <file path="/EditPillsActivity.java" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385665598636" ignored="false" />
     <file path="/MainActivity.java" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385665916503" ignored="false" />
     <file path="/editpills.xml" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385664367642" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385658636822" ignored="false" />
     <file path="/simple_list_item_1.xml" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385662229618" ignored="false" />
     <file path="/main.xml" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385665966082" ignored="false" />
+    <file path="/README.md" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385667932674" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +127,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="36" selection-start="421" selection-end="421" vertical-scroll-proportion="0.72727275">
+            <state line="21" column="42" selection-start="596" selection-end="596" vertical-scroll-proportion="0.77272725">
               <folding />
             </state>
           </provider>
@@ -688,7 +689,11 @@
       <created>1385667038758</created>
       <updated>1385667038758</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Picture 1 for lab #5">
+      <created>1385667276642</created>
+      <updated>1385667276642</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -763,7 +768,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pictures for lab #5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Picture 1 for lab #5" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -780,6 +785,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Interface and logic" />
     <MESSAGE value="Pictures for lab #5" />
+    <MESSAGE value="Picture 1 for lab #5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -903,7 +909,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="421" selection-end="421" vertical-scroll-proportion="0.72727275">
+        <state line="21" column="42" selection-start="596" selection-end="596" vertical-scroll-proportion="0.77272725">
           <folding />
         </state>
       </provider>

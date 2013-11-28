@@ -17,6 +17,9 @@ Get well!
 * Ira Trachuk
 * Dasha Lapshinova
 
+Our program can work with heap size more than 3 Mb.
+The most often allocated type in our program is char array.
+Below you can see results of the profiler:
 
 ![](https://raw.github.com/IraTrachuk/PillsOrganizer/master/res/picts/Lab5-1.png)
 ![](https://raw.github.com/IraTrachuk/PillsOrganizer/master/res/picts/Lab5-2.png)
