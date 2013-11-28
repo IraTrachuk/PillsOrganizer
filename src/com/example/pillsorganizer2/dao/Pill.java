@@ -23,4 +23,8 @@ public class Pill {
     public int getDose() {
         return Dose;
     }
+
+    public String toString(){
+        return PillName+" ("+Dose+")";
+    }
 }

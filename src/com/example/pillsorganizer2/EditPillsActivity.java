@@ -3,10 +3,7 @@ package com.example.pillsorganizer2;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.ListAdapter;
-import android.widget.NumberPicker;
+import android.widget.*;
 import com.example.pillsorganizer2.dao.Database;
 import com.example.pillsorganizer2.dao.Pill;
 
@@ -28,33 +25,44 @@ public class EditPillsActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.editpills);
 
-        NumberPicker np = (NumberPicker) findViewById(R.id.pilldose);
-        np.setMaxValue(5);
-        np.setMinValue(1);
-        np.setValue(2);
+        //NumberPicker np = (NumberPicker) findViewById(R.id.pilldose);
+        //np.setMaxValue(5);
+       // np.setMinValue(1);
+        //np.setValue(2);
 
         refreshList();
     }
 
     public void clearPills(View view){
-         db.clearPills();
+        db.clearPills();
         refreshList();
     }
 
     public void addPill(View view){
-        NumberPicker np = (NumberPicker) findViewById(R.id.pilldose);
+        EditText np = (EditText) findViewById(R.id.pilldose);
         EditText ep = (EditText) findViewById(R.id.pillname);
         String name = ep.getText().toString();
-        int dose = np.getValue();
+        int dose = 0;
+        try{
+            dose = Integer.parseInt(np.getText().toString());
+        }catch (Exception ex){}
+
+        if(dose < 1 || dose > 3) return;
 
         db.addPill(new Pill(name, dose));
         refreshList();
+        np.setText("");
+        ep.setText("");
     }
 
     private void refreshList(){
         List<Pill> pills = db.getPills();
-        //ListAdapter listAdapter = new ArrayAdapter<Pill>(this, R.layout.simple_list_item_1, pills);
+
+        ListAdapter listAdapter = new ArrayAdapter<Pill>(this, R.layout.simple_list_item, pills);
+
+        ListView lv = (ListView) findViewById(R.id.pillsgrid);
+        lv.setAdapter(listAdapter);
     }
 }

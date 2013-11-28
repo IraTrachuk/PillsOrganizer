@@ -8,28 +8,30 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Clear pills"
+            android:onClick="clearPills"
             android:id="@+id/clearpills"/>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
-        <NumberPicker
-                android:layout_width="wrap_content"
+        <EditText
+                android:layout_width="53dp"
                 android:layout_height="fill_parent"
                 android:id="@+id/pilldose"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
-                android:text="New EditText"
+                android:text=""
                 android:id="@+id/pillname"/>
     </LinearLayout>
     <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Add new pill"
+            android:onClick="addPill"
             android:id="@+id/addpill"/>
 
-    <GridView
+    <ListView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/pillsgrid"/>

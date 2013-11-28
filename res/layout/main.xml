@@ -13,12 +13,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Change name"
+                android:onClick="changeUser"
                 android:id="@+id/changename" android:layout_gravity="left"/>
         <EditText
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="USER"
-                android:id="@+id/editText" android:layout_gravity="left"/>
+                android:id="@+id/userName" android:layout_gravity="left"/>
     </LinearLayout>
     <Button
             android:layout_width="fill_parent"
@@ -29,11 +30,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Refresh"
+            android:onClick="DoRefresh"
             android:id="@+id/launch"/>
-    <GridView
+    <ListView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:id="@+id/gridView"/>
+            android:id="@+id/ScheduleList"/>
 
 </LinearLayout>
 
