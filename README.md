@@ -16,3 +16,7 @@ Get well!
 *Team members:*
 * Ira Trachuk
 * Dasha Lapshinova
+
+
+![](https://raw.github.com/IraTrachuk/PillsOrganizer/master/res/picts/Lab5-1.png)
+![](https://raw.github.com/IraTrachuk/PillsOrganizer/master/res/picts/Lab5-2.png)

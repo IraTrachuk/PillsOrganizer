@@ -24,9 +24,9 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4db8029-4cd8-4f4c-af9b-355764590523" name="Default" comment="Interface and logic">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/picts/Lab5-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/picts/Lab5-2.png" />
+    <list default="true" id="c4db8029-4cd8-4f4c-af9b-355764590523" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/picts/Lab5-1.png" afterPath="$PROJECT_DIR$/res/picts/Lab5-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PillsOrganizer2.iws" />
@@ -36,7 +36,7 @@
     <file path="/fragment.java" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385663842783" ignored="false" />
     <file path="/Database.java" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385582742084" ignored="false" />
     <file path="/DatabaseTest.java" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385576308773" ignored="false" />
-    <file path="/Dummy.txt" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385666681003" ignored="false" />
+    <file path="/Dummy.txt" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385666864512" ignored="false" />
     <file path="/EditPillsActivity.java" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385665598636" ignored="false" />
     <file path="/MainActivity.java" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385665916503" ignored="false" />
     <file path="/editpills.xml" changelist="c4db8029-4cd8-4f4c-af9b-355764590523" time="1385664367642" ignored="false" />
@@ -115,10 +115,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/pillsorganizer2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="564" selection-end="564" vertical-scroll-proportion="0.18181819">
+            <state line="19" column="13" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="80" selection-start="523" selection-end="523" vertical-scroll-proportion="0.72727275">
               <folding />
             </state>
           </provider>
@@ -162,7 +171,6 @@
       <list>
         <option value="$PROJECT_DIR$/tests/src/com/example/pillsorganizer2/dao/DatabaseTest.java" />
         <option value="$PROJECT_DIR$/tests/src/com/example/pillsorganizer2/MainActivityTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/example/pillsorganizer2/dao/Schedule.java" />
         <option value="$PROJECT_DIR$/res/layout/EditPills.xml" />
         <option value="$PROJECT_DIR$/src/com/example/pillsorganizer2/dao/Database.java" />
@@ -176,6 +184,7 @@
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/pillsorganizer2/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/pillsorganizer2/EditPillsActivity.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -560,12 +569,16 @@
       <created>1385666116059</created>
       <updated>1385666116059</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pictures for lab #5">
+      <created>1385666867757</created>
+      <updated>1385666867757</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32651514" sideWeight="0.60134006" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32651514" sideWeight="0.60134006" order="2" side_tool="false" content_ui="tabs" />
@@ -584,7 +597,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67001677" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22575757" sideWeight="0.67001677" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22575757" sideWeight="0.67001677" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -635,7 +648,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface and logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pictures for lab #5" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -651,6 +664,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Interface and logic" />
+    <MESSAGE value="Pictures for lab #5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -663,11 +677,6 @@
     <entry file="file://$PROJECT_DIR$/tests/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.30645162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.26795095" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/pillsorganizer2/dao/User.java">
@@ -772,7 +781,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/pillsorganizer2/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="564" selection-end="564" vertical-scroll-proportion="0.18181819">
+        <state line="19" column="13" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="80" selection-start="523" selection-end="523" vertical-scroll-proportion="0.72727275">
           <folding />
         </state>
       </provider>
